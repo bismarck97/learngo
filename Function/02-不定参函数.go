@@ -1,11 +1,13 @@
-package function
+package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //其他包调用函数要大写，类似于public
 
 //1.循环遍历
-func Test(args ...int) {
+func test(args ...int) {
 	for _, arg := range args {
 		fmt.Println(arg)
 	}
@@ -23,4 +25,12 @@ func Plus(arr ...int) {
 	}
 
 	fmt.Println(sum)
+}
+
+func main() {
+	//循环遍历
+	//function.Test(1, 2, 3, 4, 5)
+	//计算总和
+	Plus(1, 2, 3, 4, 5)
+
 }

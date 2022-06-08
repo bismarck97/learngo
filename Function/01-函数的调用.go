@@ -1,8 +1,8 @@
-package function
+package main
 
-import "fmt"
-
-//为了让其他包的文件使用Cal函数，需要将C大写 类似其他语言的public
+import (
+	"fmt"
+)
 
 func Cal(n1, n2 float64, operator byte) float64 {
 	var res float64
@@ -20,4 +20,8 @@ func Cal(n1, n2 float64, operator byte) float64 {
 
 	}
 	return res
+}
+func main() {
+	res := Cal(1.5, 2.6, '-')
+	fmt.Println(res)
 }

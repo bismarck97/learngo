@@ -1,6 +1,8 @@
-package function
+package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //在函数定义时调用函数本身 递归函数
 //死递归
@@ -22,4 +24,10 @@ func Factorial(n int) int {
 		return 1
 	}
 	return n * Factorial(n-1)
+}
+
+func main() {
+	Test(6)
+	num := Factorial(5)
+	fmt.Println(num)
 }
