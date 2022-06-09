@@ -13,7 +13,7 @@ func sub(x, y int) int {
 	return x - y
 }
 func main() {
-	//声明一个calculation类型的变量，并且赋值为add函数
+	//声明一个calculation类型的变量，并且赋值为add函数 函数作为变量赋值没有()
 	var cal calculation
 	cal = add
 	fmt.Printf("type of c:%T\n", cal)
