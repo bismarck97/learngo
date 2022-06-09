@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 //结构体字段的可见性与JSON序列化
+//如果一个Go语言包中定义的标识符是首字母大写的，那么就是对外可见的
 type student struct {
 	Id   int
 	Name string
