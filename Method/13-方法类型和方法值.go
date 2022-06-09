@@ -6,7 +6,7 @@ import (
 
 type funcdemo func()
 
-func main() {
+func main013() {
 	//对象
 	s := Student{
 		Person: Person{

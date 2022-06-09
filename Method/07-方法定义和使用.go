@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main07() {
+func main0701() {
 	var stu = Student{
 		Person: Person{
 			Name: "张三",
@@ -18,4 +18,10 @@ func main07() {
 	stu.EditInfo("李四", 25, "男")
 	fmt.Println("==========================")
 	stu.PrintInfo()
+}
+func main() {
+	p1 := NewPerson("张三", "男", 18)
+	//(*p1).SayHi()
+	//go语言的语法糖自动把指针类型转换成变量
+	p1.SayHi()
 }
