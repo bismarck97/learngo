@@ -21,7 +21,7 @@ type class struct {
 	Students []student
 }
 
-func main() {
+func main06() {
 	//创建一个班级变量c1
 	c1 := class{
 		Title:    "班级一",
