@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main03() {
 	a := 10
 	b := 20
 	//匿名内部函数

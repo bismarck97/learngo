@@ -26,7 +26,7 @@ func Factorial(n int) int {
 	return n * Factorial(n-1)
 }
 
-func main() {
+func main04() {
 	Test(6)
 	num := Factorial(5)
 	fmt.Println(num)

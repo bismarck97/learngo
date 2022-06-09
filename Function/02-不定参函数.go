@@ -27,7 +27,7 @@ func Plus(arr ...int) {
 	fmt.Println(sum)
 }
 
-func main() {
+func main02() {
 	//循环遍历
 	//function.Test(1, 2, 3, 4, 5)
 	//计算总和

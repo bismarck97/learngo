@@ -21,7 +21,7 @@ func Cal(n1, n2 float64, operator byte) float64 {
 	}
 	return res
 }
-func main() {
+func main01() {
 	res := Cal(1.5, 2.6, '-')
 	fmt.Println(res)
 }
