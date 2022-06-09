@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //结构体字段的可见性与JSON序列化
 type student struct {
 	Id   int
@@ -26,6 +28,7 @@ func main() {
 		Students: make([]student, 0, 20),
 	}
 	//往班级c1中添加学生
+	fmt.Println(c1)
 	for i := 0; i < 10; i++ {
 		//造10个学生
 
