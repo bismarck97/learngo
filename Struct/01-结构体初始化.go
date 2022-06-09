@@ -13,12 +13,13 @@ func main01() {
 		Age:  18,
 		Addr: "成都",
 	}
-	fmt.Println(s1)
+	fmt.Printf("%#v\n", s1)
+	fmt.Println("=======================")
 	//结构体定义完成后，结构体成员的使用
 	var s2 Student
 	s2.Id = 102
 	s2.Age = 19
 	s2.Sex = "男"
 	s2.Addr = "北京"
-
+	fmt.Printf("%#v\n", s2)
 }
