@@ -6,7 +6,7 @@ import "fmt"
 
 type Student struct {
 	//通过匿名字段实现继承操作
-	Person //结构体名称作为结构体成员
+	Person //结构体名称作为结构体成员 匿名嵌套
 	Id     int
 	Score  int
 }
