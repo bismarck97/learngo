@@ -14,6 +14,6 @@ func main01() {
 	fmt.Println(*p)
 	fmt.Println("===========================")
 	q := new(int)
-	*q = 100
+	*q = 1000
 	fmt.Println(*q)
 }
