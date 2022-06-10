@@ -16,6 +16,7 @@ func main0101() {
 	s[4] = 567
 	//s[6] = 789//err.
 	//通过append添加元素
+
 	s = append(s, 678, 789, 890)
 	fmt.Println(s)
 	//切片的长度
