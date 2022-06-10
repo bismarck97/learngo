@@ -4,6 +4,7 @@ import "fmt"
 
 func main0601() {
 	//空接口，可以接收任意类型的数据
+	//任意类型都实现了空接口-->空接口变量可以存储任意值
 	var i interface{} //相当于万能指针
 	i = 1
 	fmt.Println(i)
@@ -22,6 +23,10 @@ func main0601() {
 	i = &a
 	fmt.Println(i)
 	fmt.Printf("%p\n", &i)
+	var m = make(map[string]interface{}, 100)
+	m["name"] = "张三"
+	m["age"] = 18
+	m["hobby"] = []string{"蓝球", "game", "吃饭"}
 }
 func main0602() {
 	//空接口切片
