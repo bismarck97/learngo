@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func main05() {
 	//定时器
 	//返回值是个通道
 	for tmp := range time.Tick(time.Microsecond * 2) {
