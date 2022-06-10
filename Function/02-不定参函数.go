@@ -20,6 +20,7 @@ func Plus(arr ...int) {
 	//	sum += arr[i]
 	//}
 
+
 	for _, arg := range arr {
 		sum += arg
 	}
