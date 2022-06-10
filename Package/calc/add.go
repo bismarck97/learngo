@@ -17,7 +17,7 @@ func Add(a, b int) int {
 	return a + b
 }
 
-//init函数在包导入的时候自动执行,优先于main函数
+//init函数在包导入的时候自动执行,优先于main函数执行
 //init函数没有参数也没有返回值
 func init() {
 	fmt.Println("calc.init()")
