@@ -8,7 +8,7 @@ type per struct {
 	age        int
 }
 
-func main06() {
+func main08() {
 
 	var p2 = new(per)
 	fmt.Printf("%T\n", p2)

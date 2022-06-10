@@ -23,10 +23,10 @@ func newStudent(id int, name string) student {
 
 type class struct {
 	Title    string    `json:"title"` //结构体标签（Tag）
-	Students []student `json:"students_list"`
+	Students []student `json:"students_list" db:"student" xml:"ss"`
 }
 
-func main() {
+func main06() {
 	//创建一个班级变量c1
 
 	c1 := class{
