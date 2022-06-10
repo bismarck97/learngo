@@ -6,6 +6,7 @@ import (
 
 func main() {
 	//var arr []interface{}
+
 	arr := make([]interface{}, 3)
 	arr[0] = 123
 	arr[1] = 3.1456
