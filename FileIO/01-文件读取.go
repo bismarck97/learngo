@@ -13,8 +13,9 @@ func readFromFile() {
 		fmt.Printf("open file failed,error%v\n", err)
 		return
 	}
-	//读取文件的内容
+	//定义字节切片保存文件信息
 	var tmp = make([]byte, 128)
+	//读取文件的内容
 	n, err := fileObj.Read(tmp)
 	if err != nil {
 		fmt.Printf("open file failed,error%v\n", err)
@@ -53,6 +54,7 @@ func readAll() {
 		fmt.Println(string(tmp))
 	}
 }
-func main() {
 
+func main01() {
+	readAll()
 }
