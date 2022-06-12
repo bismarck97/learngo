@@ -22,20 +22,22 @@ func main() {
 		//}
 
 		//switch t := v.(type) {
-		switch v.(type) {
-		case int:
-			fmt.Println("整型数据", v)
-		case float64:
-			fmt.Println("浮点型数据", v)
-		case string:
-			fmt.Println("字符串数据", v)
-		}
-		//if value, ok := v.(int); ok {
-		//	fmt.Println("整型数据:", value)
-		//} else if value, ok := v.(float64); ok {
-		//	fmt.Println("浮点型数据:", value)
-		//} else if value, ok := v.(string); ok {
-		//	fmt.Println("字符串数据:", value)
+		//switch v.(type) {
+		//case int:
+		//	fmt.Println("整型数据", v)
+		//case float64:
+		//	fmt.Println("浮点型数据", v)
+		//case string:
+		//	fmt.Println("字符串数据", v)
 		//}
+		if value, ok := v.(int); ok {
+			fmt.Println("整型数据:", value)
+		} else if value, ok := v.(float64); ok {
+			fmt.Println("浮点型数据:", value)
+		} else if value, ok := v.(string); ok {
+			fmt.Println("字符串数据:", value)
+		} else if value, ok := v.([3]int); ok {
+			fmt.Println("数组数据:", value)
+		}
 	}
 }
