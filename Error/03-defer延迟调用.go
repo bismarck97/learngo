@@ -28,7 +28,7 @@ func main0302() {
 	defer test5(10, 20)
 	test6(value)
 }
-func main() {
+func main0303() {
 	a := 10
 	b := 20
 	//定义函数类型变量
