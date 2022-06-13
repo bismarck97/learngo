@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main07() {
 	//var arr []interface{}
 
 	arr := make([]interface{}, 3)
