@@ -18,6 +18,7 @@ func readByBufio() {
 	}
 	//延迟执行，到最后关闭文件
 	defer fileObj.Close() //关闭文件
+	//行读取
 	reader := bufio.NewReader(fileObj)
 	//用死循环来读取文件
 	for {

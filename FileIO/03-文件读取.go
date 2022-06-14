@@ -78,7 +78,7 @@ func main0301() {
 func main0302() {
 	readAll()
 }
-func main() {
+func main0303() {
 	fp, err := os.Open("./a.txt")
 	if err != nil {
 		fmt.Println(err)
