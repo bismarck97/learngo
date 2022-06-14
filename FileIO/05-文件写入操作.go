@@ -46,7 +46,7 @@ func writeByIoUtil() {
 		return
 	}
 }
-func main() {
+func main04() {
 	//write()
 	//writeByBufio()
 	writeByIoUtil()
