@@ -16,7 +16,7 @@ func add[T NumStr](a, b T) T {
 	return a + b
 }
 
-func main() {
+func main05() {
 	fmt.Println(add(3, 4))
 	fmt.Println(add("hello", "world"))
 }
